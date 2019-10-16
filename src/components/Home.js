@@ -1,11 +1,8 @@
 import React from 'react';
 
-function Home() {
-    return (
-        <div className="App">
-            HOme
-    </div>
-    );
+class Home extends React.Component {
+    render() {
+        return <h1>Hello, {this.props.name}</h1>;
+    }
 }
-
 export default Home;
